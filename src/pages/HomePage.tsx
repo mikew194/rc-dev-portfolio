@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
                 className="flex flex-col sm:flex-row items-center justify-center gap-4"
               >
                 <GradientButton
-                  href="/projects"
+                  href="https://mikew194.github.io/rc-dev-portfolio/projects"
                   size="lg"
                   className="w-full sm:w-auto"
                 >

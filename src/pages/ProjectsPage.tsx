@@ -56,18 +56,18 @@ const ProjectsPage: React.FC = () => {
     //   featured: false,
     //   date: "2023",
     // },
-    // {
-    //   title: "Portfolio Website",
-    //   description:
-    //     "A modern, responsive portfolio website built with React and Framer Motion, featuring smooth animations and optimized performance.",
-    //   image:
-    //     "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   technologies: ["React", "Framer Motion", "Tailwind CSS", "Vite"],
-    //   githubUrl: "https://github.com",
-    //   liveUrl: "https://example.com",
-    //   featured: false,
-    //   date: "2024",
-    // },
+    {
+      title: "Blazor Test App",
+      description:
+        "A demo website built with Blazor WASM. Used to test deployment",
+      image:
+        "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      technologies: ["Blazor Wasm"],
+      githubUrl: "",
+      liveUrl: "https://github.com/mikew194/bz-gh-pages-app",
+      featured: false,
+      date: "2025",
+    },
     {
       title: "AI Chat Application",
       description:

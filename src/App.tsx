@@ -1,19 +1,19 @@
 //import React from 'react';
-import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 // import { motion, AnimatePresence } from 'framer-motion';
 import { AnimatePresence } from "framer-motion";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import SkillsPage from "./pages/SkillsPage";
-import ProjectsPage from "./pages/ProjectsPage";
-import ExperiencePage from "./pages/ExperiencePage";
-import ContactPage from "./pages/ContactPage";
+import Header from "./components/Header";
 import ResumeDownloadComponent from "./components/ResumeDownloader";
+import ScrollToTop from "./components/ScrollToTop";
 import Spinner from "./components/Spinner";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import ExperiencePage from "./pages/ExperiencePage";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import SkillsPage from "./pages/SkillsPage";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/dev-portfolio">
+    <Router basename="/rc-dev-portfolio">
       {isLoading ? (
         <Spinner />
       ) : (

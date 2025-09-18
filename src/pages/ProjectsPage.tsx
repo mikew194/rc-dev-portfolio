@@ -64,7 +64,7 @@ const ProjectsPage: React.FC = () => {
         "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Blazor Wasm"],
       githubUrl: "",
-      liveUrl: "https://github.com/mikew194/bz-gh-pages-app",
+      liveUrl: "https://mikew194.github.io/bz-gh-pages-app/",
       featured: false,
       date: "2025",
     },

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import React from "react";
+import { Link } from "react-router-dom";
 import AnimatedSection from "../components/AnimatedSection";
 import GradientButton from "../components/GradientButton";
 import PageTransition from "../components/PageTransition";
@@ -50,13 +51,11 @@ const HomePage: React.FC = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="flex flex-col sm:flex-row items-center justify-center gap-4"
               >
-                <GradientButton
-                  href="./projects"
-                  size="lg"
-                  className="w-full sm:w-auto"
-                >
-                  View My Work
-                </GradientButton>
+                <Link to="/projects">
+                  <GradientButton size="lg" className="w-full sm:w-auto">
+                    Go to Projects
+                  </GradientButton>
+                </Link>
 
                 <a
                   href="./JLY-2025Resume-Michael-R-Wassermann.docx" // Replace with the actual path to your resume

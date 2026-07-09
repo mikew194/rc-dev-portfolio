@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
             React & Tailwind CSS
           </p>
           <p className="text-gray-400 text-sm mt-2 md:mt-0">
-            Last Modified: 02/21/2026
+            Last Modified: 07/08/2026
           </p>
           <p className="text-gray-400 text-sm mt-2 md:mt-0">
             © {new Date().getFullYear()} DevPortfolio. All rights reserved.
